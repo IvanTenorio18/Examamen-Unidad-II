@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(10, 10, 56);
+}
+
+#main-header{
+    background: rgb(27, 27, 116);
+    color: white;
+    height: 60px;
+}
+
+h1{
+    font-size: 35px;
+    float:left;
+    margin: 25px 20px;
+    line-height: 10px;
+}
+
+#main-header a{
+    color: white;
+}
+
+#main-header a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+nav{
+    float:right;
+    font-size: 20px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+}
+
+nav ul li a{
+    font-size: bold 15px;
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.inicio{
+    background: no-repeat center/35% url(https://www.altonivel.com.mx/wp-content/uploads/2018/06/mejores-celulares-2018.jpg) ;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 25px;
+}
+.titulo{
+    background-color: white;
+    height:60px;
+    margin: 25px auto;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 2px black;
+}
+.celulares{
+    padding: 0;
+    margin: 10px;
+    color: cadetblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+#productos{
+    border: solid 2px;
+    background-color: rgb(221,221,221);
+}
+table{
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th,td{
+    border:solid 1px black;
+    padding: 10px;
+    background-color: white;
+}
+tr:hover td{
+    background-color:rgb(27, 27, 116);
+    color: white;
+}
+th{
+    text-align: center;
+    background-color: rgb(27, 27, 155);
+    padding:  20px;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color:whitesmoke;
+}
+.botonAgregar{
+    text-align: center;
+}
+#añadir{
+    height: 25px;
+    width: 100px;
+    color: whitesmoke;
+    background:rgb(245, 176, 65 );
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#añadir:hover{
+    background: white;
+    color: #369681;
+    font-weight: bold;
+}
